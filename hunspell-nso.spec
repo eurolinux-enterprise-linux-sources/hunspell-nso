@@ -2,7 +2,7 @@ Name: hunspell-nso
 Summary: Northern Sotho hunspell dictionaries
 %define upstreamid 20091201
 Version: 0.%{upstreamid}
-Release: 5%{?dist}
+Release: 6%{?dist}
 Source: http://extensions.services.openoffice.org/files/3139/1/dict-ns_ZA-2009.12.01.oxt
 Group: Applications/Text
 URL: http://www.translate.org.za/
@@ -45,6 +45,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/myspell/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.20091201-6
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 0.20091201-5
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
